@@ -6,6 +6,7 @@ import Events from "./pages/Events";
 
 function App() {
   const [page, setPage] = useState("events");
+  console.log("ENV CHECK:", process.env.REACT_APP_API_URL);
 
   return (
     <div className="container">
